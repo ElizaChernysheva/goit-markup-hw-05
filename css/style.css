@@ -142,6 +142,8 @@
       align-items: center;
   
       color: var(--primary-text-color);
+      
+      transition: color var(--duration) var(--timing-function);
   }
   
   .nav-link{
@@ -547,6 +549,8 @@
       border: 1px solid #AFB1B8;
       border-radius: 4px;
       cursor: pointer;
+
+      transition: border-color var(--duration) var(--timing-function);
   }
   
   .customers-link {
